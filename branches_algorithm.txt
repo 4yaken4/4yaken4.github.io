@@ -1,0 +1,36 @@
+Step-by-Step Guide:
+1.  Set Up the Repository (if not done already)
+git clone https://github.com/yourusername/your-repository.git
+
+2. Each Team Member Creates Their Task Branch 
+git checkout -b task-X
+
+3. Work on the Task (Modify Files Locally)
+
+4.  Stage and Commit Changes
+- Stage changes:
+git add .
+
+- Commit changes:
+git commit -m "Completed task X"
+
+5. Pull Latest Changes from main Branch
+- Switch to main:
+git checkout main
+
+- Pull latest changes from remote:
+git pull origin main
+
+6. Merge Task Branch into main:
+- Switch to main (if not already on main):
+git checkout main
+- Merge the task branch into main (e.g., if Person 1 is merging task-1):
+git merge task-1
+
+7. Push Changes to GitHub:
+git push origin main
+
+8. Push Task Branch to GitHub (for Visibility):
+git push origin task-X
+
+9. Repeat for the Next Task
