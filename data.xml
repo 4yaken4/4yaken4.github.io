@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<technologies>
+
+    <technology id="1">
+        <name>Cloud Computing</name>
+        <isPopular>true</isPopular>
+        <yearEstablished>2006</yearEstablished>
+    </technology>
+
+    <technology id="2">
+        <name>Machine Learning</name>
+        <isPopular>true</isPopular>
+        <yearEstablished>2012</yearEstablished>
+    </technology>
+
+    <technology id="3">
+        <name>Blockchain</name>
+        <isPopular>false</isPopular>
+        <yearEstablished>2008</yearEstablished>
+    </technology>
+
+    <technology id="4">
+        <name>Cybersecurity</name>
+        <isPopular>true</isPopular>
+        <yearEstablished>1997</yearEstablished>
+    </technology>
+
+</technologies>

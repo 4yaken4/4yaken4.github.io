@@ -1,0 +1,23 @@
+[
+    {
+      "name": "Cloud Computing",
+      "isPopular": true,
+      "yearEstablished": 2006
+    },
+    {
+      "name": "Machine Learning",
+      "isPopular": true,
+      "yearEstablished": 2012
+    },
+    {
+      "name": "Blockchain",
+      "isPopular": false,
+      "yearEstablished": 2008
+    },
+    {
+      "name": "Cybersecurity",
+      "isPopular": true,
+      "yearEstablished": 1997
+    }
+  ]
+  

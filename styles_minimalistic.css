@@ -1,0 +1,107 @@
+/* minimalistic, just meeting the requirements */
+
+/* GLOBAL: Center all titles */
+h1 {
+    text-align: center;
+}
+
+/* HOME PAGE (index.html) */
+
+/* Menu at the top right */
+nav {
+    text-align: right;
+}
+
+/* Paragraph aligned on both sides */
+p {
+    text-align: justify;
+    width: 100%;
+}
+
+/* Responsive columns */
+div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div>section {
+    flex: 1;
+    /* Equal width for columns */
+    margin: 5px;
+    min-width: 200px;
+    /* Minimum size for columns */
+}
+
+/* Links change color on hover */
+a:hover {
+    color: red;
+}
+
+/* DATA PAGE (data.html) */
+
+/* Table styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    /* Makes the table span full width */
+}
+
+th,
+td {
+    border: 1px solid black;
+    /* Single solid line border */
+    padding: 5px;
+    text-align: left;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+/* IMAGES PAGE (images.html) */
+
+/* Image styles */
+img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    /* 1 cm gap between images */
+    border: 1px solid black;
+    /* Frame around each image */
+}
+
+/* FORM PAGE (form.html) */
+
+/* Edit fields with blue background */
+input[type="text"],
+textarea {
+    background-color: lightblue;
+}
+
+/* Buttons with green background */
+button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* AUTHOR PAGE (author.html) */
+
+/* Letter numbering for list */
+ol {
+    list-style-type: upper-alpha;
+    /* A, B, C numbering */
+    font-weight: bold;
+    /* List text in bold */
+    border: 2px solid black;
+    /* Box around the list */
+    padding: 10px;
+    /* Space inside the box */
+    width: fit-content;
+    /* Adjust box size to fit content */
+    margin: auto;
+    /* Center the list horizontally */
+}

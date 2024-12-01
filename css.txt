@@ -1,0 +1,63 @@
+GLOBAL:
+titles (website / page title) - centred 
+
+HOME PAGE (index.html):
+*home page menu - needs to be formatted
+*home page paragrapgh (1c)- the entire width of the page, aligned on both sides
+*columns - responsiveness of the columns depending on the screen size (on large screens, columns are displayed next to each other, on 
+smartphones, columns are displayed one above the other)
+*links - a link that you point at with your mouse changes its color
+
+
+DATA PAGE (data.html):
+*table:
+-border of each cell single solid line
+-table header (column titles) with white letters on black background"
+
+
+IMAGES PAGE (images.html):
+*images:
+- image size (width, height) the same for all images
+- 1 cm gap between images
+- frame around each image
+
+
+
+FORM PAGE (form.html):
+* edit fields - blue background color
+* buttons - green
+
+
+
+AUTHOR PAGE (author.html):
+* list:
+- letter numbering (A,B,C)
+[done with html by <ol type="A"> </ol>]
+[in css: 
+ol {list-style-type: upper-alpha; /* Equivalent to type="A" */}]
+
+- box around the list:
+[  ol {
+    font-weight: bold; /* Makes text bold */
+    border: 2px solid black; /* Adds a box */
+    padding: 10px; /* Adds space inside the box */
+    width: fit-content; /* Adjusts box size to the content */
+  }]
+
+
+- list text in bold
+[In HTML, you can use the <b> or <strong> tags to make text bold.]
+[In CSS:
+ ol {font-weight: bold; /* Makes all list items bold */}]1
+
+ALL FORMATING FOR AUTHOR PAGE - example:
+/* Styles for the ordered list */
+ol {
+  list-style-type: upper-alpha; /* Letter numbering (A, B, C, ...) */
+  font-weight: bold; /* Bold text */
+  border: 2px solid black; /* Box around the list */
+  padding: 10px; /* Space inside the box */
+  width: fit-content; /* Adjust the width of the box to fit the content */
+  margin: 20px auto; /* Center the list horizontally on the page */
+}
+
